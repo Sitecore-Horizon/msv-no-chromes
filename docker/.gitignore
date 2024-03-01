@@ -9,3 +9,4 @@
 
 /deploy/platform/*
 !/deploy/platform/.gitkeep
+!/deploy/platform/bin/Sitecore.Horizon.Integration.dll

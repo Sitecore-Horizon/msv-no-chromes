@@ -88,7 +88,7 @@ if ($ClientCredentialsLogin -eq "true") {
     dotnet sitecore login --authority $xmCloudClientCredentialsLoginDomain --audience $xmCloudClientCredentialsLoginAudience --client-id $xmCloudClientCredentialsLoginClientId --client-secret $xmCloudClientCredentialsLoginClientSecret --cm https://$xmCloudHost --client-credentials true --allow-write true
 }
 else {
-    dotnet sitecore cloud login
+    dotnet sitecore cloud login --authority https://auth-staging-1.sitecore-staging.cloud --client-id RRnzABlSoIWpPPDZCTh5KPekgG0AsjiL --audience https://api-staging.sitecore-staging.cloud
     dotnet sitecore connect --ref xmcloud --cm https://$xmCloudHost --allow-write true -n default
 }
 

@@ -8,6 +8,11 @@ import {
   ComponentPropsContext,
   EditingComponentPlaceholder,
   StaticPath,
+  LayoutServiceData,
+  LayoutServicePageState,
+  PlaceholdersData,
+  HtmlElementRendering,
+  ComponentRendering,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { handleEditorFastRefresh } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import { SitecorePageProps } from 'lib/page-props';
@@ -93,6 +98,10 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 export const getStaticProps: GetStaticProps = async (context) => {
   const props = await sitecorePagePropsFactory.create(context);
 
+  if (props.layoutData.sitecore.context.pageState === LayoutServicePageState.Preview) {
+    props.layoutData = injectEditingMarkers(props.layoutData);
+  }
+
   return {
     props,
     // Next.js will attempt to re-generate the page:
@@ -104,3 +113,122 @@ export const getStaticProps: GetStaticProps = async (context) => {
 };
 
 export default SitecorePage;
+
+function injectEditingMarkers(layoutData: LayoutServiceData): LayoutServiceData {
+  //layoutData.sitecore.context.pageEditing = true;
+  //layoutData.sitecore.context.pageState = LayoutServicePageState.Edit;
+  if (layoutData.sitecore.route) {
+    layoutData.sitecore.route.placeholders = injectEditingMarkersIntoPlaceholders(
+      layoutData.sitecore.route.placeholders,
+      undefined
+    );
+  }
+
+  return layoutData;
+}
+
+function injectEditingMarkersIntoPlaceholders(
+  placeholdersData: PlaceholdersData,
+  parentRendering: ComponentRendering | undefined
+): PlaceholdersData {
+  for (const placeholderName in placeholdersData) {
+    if (Object.prototype.hasOwnProperty.call(placeholdersData, placeholderName)) {
+      const placeHolderElement = placeholdersData[placeholderName];
+      placeholdersData[placeholderName] = injectEditingMarkersIntoPlaceholder(
+        placeholderName,
+        placeHolderElement,
+        parentRendering
+      );
+    }
+  }
+
+  return placeholdersData;
+}
+
+function injectEditingMarkersIntoPlaceholder(
+  placeholderName: string,
+  placeholderData: PlaceholdersData[string],
+  parentRendering: ComponentRendering | undefined
+) {
+  const openPhElement: HtmlElementRendering = {
+    name: 'code',
+    type: 'text/sitecore',
+    attributes: {
+      type: 'text/sitecore',
+      chrometype: 'placeholder',
+      kind: 'open',
+      class: 'scpm',
+      'data-selectable': 'true',
+    },
+    contents: JSON.stringify({
+      placeholderName,
+      parentRendering: {
+        uid: parentRendering?.uid,
+        componentName: parentRendering?.componentName,
+        params: parentRendering?.params,
+      },
+    }),
+  };
+
+  const closePhElement: HtmlElementRendering = {
+    name: 'code',
+    type: 'text/sitecore',
+    contents: '',
+    attributes: {
+      type: 'text/sitecore',
+      chrometype: 'placeholder',
+      kind: 'close',
+      class: 'scpm',
+    },
+  };
+
+  const updatedPhData = injectEditingMarkersIntoRenderings(placeholderData);
+  updatedPhData.unshift(openPhElement);
+  updatedPhData.push(closePhElement);
+  return updatedPhData;
+}
+
+function injectEditingMarkersIntoRenderings(placeholderData: PlaceholdersData[string]) {
+  const phRenderingsData: PlaceholdersData[string] = [];
+  for (let i = 0; i < placeholderData.length; i++) {
+    const rendering = placeholderData[i] as ComponentRendering;
+    if (rendering.placeholders) {
+      rendering.placeholders = injectEditingMarkersIntoPlaceholders(
+        rendering.placeholders,
+        rendering
+      );
+    }
+
+    const openRenderingChrome: HtmlElementRendering = {
+      name: 'code',
+      type: 'text/sitecore',
+      contents: JSON.stringify({
+        uid: rendering.uid,
+        componentName: rendering.componentName,
+        params: rendering.params,
+      }),
+      attributes: {
+        type: 'text/sitecore',
+        chrometype: 'rendering',
+        kind: 'open',
+        class: 'scpm',
+        'data-selectable': 'true',
+      },
+    };
+
+    const closeRenderingChrome: HtmlElementRendering = {
+      name: 'code',
+      type: 'text/sitecore',
+      contents: '',
+      attributes: {
+        type: 'text/sitecore',
+        chrometype: 'rendering',
+        kind: 'close',
+        class: 'scpm',
+      },
+    };
+
+    phRenderingsData.push(openRenderingChrome, rendering, closeRenderingChrome);
+  }
+  return phRenderingsData;
+}
