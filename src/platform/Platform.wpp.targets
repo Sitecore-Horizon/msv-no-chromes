@@ -14,7 +14,7 @@
     ensure the NuGet package targets have been evaluated.
   -->
     <ItemGroup>
-			<ExcludeFromPackageFiles Include="@(SitecoreAssemblies -> 'bin\%(Filename)%(Extension)')" />
+			<ExcludeFromPackageFiles Include="@(SitecoreAssemblies -> 'bin\%(Filename)%(Extension)')" Exclude="bin\Sitecore.Horizon.Integration.dll"/>
 			<ExcludeFromPackageFiles Include="@(SitecoreAssemblies -> 'bin\%(Filename).pdb')" />
 			<ExcludeFromPackageFiles Include="@(SitecoreAssemblies -> 'bin\%(Filename).xml')" />
 		</ItemGroup>
