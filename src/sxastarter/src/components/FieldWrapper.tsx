@@ -1,4 +1,4 @@
-import { ComponentType, FC } from 'react';
+import { ComponentType } from 'react';
 import {
   Link as JssLink,
   Text as JssText,
