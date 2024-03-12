@@ -1,12 +1,6 @@
 import React from 'react';
-import {
-  Image as JssImage,
-  Link as JssLink,
-  RichText as JssRichText,
-  ImageField,
-  Field,
-  LinkField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { ImageField, Field, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Image as JssImage, Link as JssLink, RichText as JssRichText } from './FieldWrapper';
 
 interface Fields {
   PromoIcon: ImageField;

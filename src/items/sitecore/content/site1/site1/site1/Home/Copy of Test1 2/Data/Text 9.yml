@@ -1,0 +1,35 @@
+﻿---
+ID: "ca004b02-8434-4370-90a3-cc6ba39b0413"
+Parent: "68b2bf13-8230-490f-9457-abebc03d5f18"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/site1/site1/Home/Copy of Test1 2/Data/Text 9
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240206T114320Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <ol><li class="rte-align-center">Suspendisse <strong>interdum </strong>consectetur libero id faucibus. Elementum tempus egestas sed sed risus pretium quam vulputate. Suspendisse sed nisi lacus sed viverra tellus in hac. Etiam erat velit scelerisque in dictum. Facilisis mauris sit amet massa vitae tortor. Vitae suscipit tellus mauris a diam maecenas. In nisl nisi scelerisque eu ultrices. Nec sagittis aliquam malesuada bibendum arcu vitae. Mollis aliquam ut porttitor leo. In arcu cursus euismod quis viverra nibh cras pulvinar. Eu nisl nunc mi ipsum faucibus vitae. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Amet porttitor eget dolor morbi non arcu. Mollis nunc sed id semper risus in hendrerit. Rutrum quisque non tellus orci ac auctor augue. Elementum nibh tellus molestie nunc non blandit massa enim nec. Viverra justo nec ultrices dui sapien eget mi proin sed. Cras ornare arcu dui vivamus. Massa placerat duis ultricies lacus sed turpis tincidunt.</li></ol><ul><li>Duis ultricies lacus sed turpis tincidunt id aliquet. Urna nec tincidunt praesent semper feugiat nibh sed. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Sit amet commodo nulla facilisi nullam. Lectus urna duis convallis convallis tellus. Vulputate odio ut enim blandit volutpat. Orci sagittis eu volutpat odio. Vitae semper quis lectus nulla at. Rhoncus mattis rhoncus urna neque viverra justo nec. Nibh ipsum consequat nisl vel pretium. Orci a scelerisque purus semper eget duis at. Libero id faucibus nisl tincidunt eget nullam non nisi est. Scelerisque eleifend donec pretium vulputate. Ultrices eros in cursus turpis massa. Pretium viverra suspendisse potenti nullam ac tortor vitae. Nunc vel risus commodo viverra maecenas accumsan lacus. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Non tellus orci ac auctor augue mauris augue neque.</li></ul><p>Quis eleifend quam adipiscing vitae. Est ante in nibh mauris cursus mattis molestie. Natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Lobortis feugiat vivamus at augue eget. Neque viverra justo nec ultrices dui sapien eget. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Mauris vitae ultricies leo integer malesuada nunc. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Tincidunt vitae semper quis lectus nulla. Tellus in hac habitasse platea dictumst vestibulum rhoncus est. Donec ac odio tempor orci dapibus ultrice<em>s in iaculis nunc. Nisl purus in mollis nunc sed id semper risus in. Aliquet risus feugiat in ante metus dictum at tempor. Quis enim lobortis scelerisque fermentum dui faucibus in. Euismod quis viverra nibh cras pulvinar. Sed augue lacus viverra vitae congue eu consequat ac felis. At in tellus integer feugiat scelerisque. Amet nisl suscipit adipiscing bibendum est ultricies. Porta non pulvinar neque laoreet suspendisse interdum. Sed velit dignissim sodales </em>ut eu sem integer.</p><p>Vestibulum sed arcu non odio euismod lacinia at quis risus. Massa id neque aliquam vestibulum morbi blandit. Laoreet id donec ultrices tincidunt arcu non sodales neque. Vulputate mi sit amet mauris commodo quis imperdiet massa. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Etiam sit amet nisl purus in mollis. Amet nisl purus in mollis. At volutpat diam ut venenatis. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Auctor augue mauris augue neque. Morbi tempus iaculis urna id volutpat. Odio facilisis mauris sit amet. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Semper risus in hendrerit gravida rutrum quisque non tellus.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d424b435-5742-4eed-907c-ee9822ab2085"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240206T114743Z

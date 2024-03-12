@@ -1,0 +1,23 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "TestData",
+    "items": {
+        "includes": [
+            {
+                "name": "sitecore/templates/Project/site1",
+                "path": "/sitecore/templates/Project/site1",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "sitecore/content/site1",
+                "path": "/sitecore/content/site1",
+                "scope": "ItemAndDescendants"
+            },
+            {
+                "name": "sitecore/media library/Project/site1",
+                "path": "/sitecore/media library/Project/site1",
+                "scope": "ItemAndDescendants"
+            }
+        ]
+    }
+}

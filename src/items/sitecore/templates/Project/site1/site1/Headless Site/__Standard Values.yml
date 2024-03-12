@@ -1,0 +1,31 @@
+﻿---
+ID: "03f7eee4-7122-4d55-834f-5399e8137b2c"
+Parent: "ee0571f9-56ad-40ea-ada3-ae63e8ef16fa"
+Template: "ee0571f9-56ad-40ea-ada3-ae63e8ef16fa"
+Path: /sitecore/templates/Project/site1/Headless Site/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240206T112039Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1cd614c3-ed7a-4182-be92-2a0c66737eaa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240206T112039Z

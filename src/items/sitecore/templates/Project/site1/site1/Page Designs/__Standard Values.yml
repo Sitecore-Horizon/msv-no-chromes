@@ -1,0 +1,37 @@
+﻿---
+ID: "d84c4876-9e3d-431d-90d5-fe5188d8d9d2"
+Parent: "d6e45e64-9d3b-48e2-9e2e-f2e5107f9ce1"
+Template: "d6e45e64-9d3b-48e2-9e2e-f2e5107f9ce1"
+Path: /sitecore/templates/Project/site1/Page Designs/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {81B10DAF-011A-4FC1-95E2-421205A58757}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240206T112040Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d90140db-8cc0-4159-9701-f742098892c5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240206T112041Z

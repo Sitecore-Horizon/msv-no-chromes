@@ -1,0 +1,23 @@
+﻿---
+ID: "167005de-27fc-40f9-a31f-63f22d9b6193"
+Parent: "41e4f12f-d9ba-448b-9b96-b9a8f5852fce"
+Template: "2032abe3-299e-4311-97b5-1420a73f42a6"
+Path: /sitecore/content/site1/site1/Presentation/Partial Designs/erwerwerfwe
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240216T133925Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae9bcb5d-dd82-4eee-90e1-4614fed39e2e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240216T133925Z

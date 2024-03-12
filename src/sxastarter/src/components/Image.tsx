@@ -1,13 +1,11 @@
 import React from 'react';
 import {
-  Image as JssImage,
-  Link as JssLink,
   ImageField,
   Field,
   LinkField,
-  Text,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Image as JssImage, Link as JssLink, Text } from './FieldWrapper';
 
 interface Fields {
   Image: ImageField;

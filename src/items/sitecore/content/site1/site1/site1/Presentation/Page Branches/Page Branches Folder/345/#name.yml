@@ -1,0 +1,28 @@
+﻿---
+ID: "784406a8-873f-41ee-967f-33071cad2dde"
+Parent: "a1ad98f2-8427-4109-8370-42402977671d"
+Template: "02abfaa3-4d93-441c-86b3-141c13ffa965"
+Path: /sitecore/content/site1/site1/Presentation/Page Branches/Page Branches Folder/345/$name
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CE5078E3-8FAE-4176-9BB4-8B3FFCAB0CDD}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240216T132001Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f60a902-5295-45bb-9140-c2b4343f4a64"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240216T132001Z

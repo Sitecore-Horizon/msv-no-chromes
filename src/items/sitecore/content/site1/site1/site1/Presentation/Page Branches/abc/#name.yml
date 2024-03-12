@@ -1,0 +1,28 @@
+﻿---
+ID: "915d9dce-aee9-4b0f-9829-003a2bcb8d0a"
+Parent: "93897768-f762-4fe1-abd6-54b26259cf8b"
+Template: "02abfaa3-4d93-441c-86b3-141c13ffa965"
+Path: /sitecore/content/site1/site1/Presentation/Page Branches/abc/$name
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DF22CF9F-7B8A-4E3B-9A8B-DBF7FE9A1F2F}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240216T125907Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30fabec0-9e95-4e79-978c-ef292fa68aed"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240216T125907Z

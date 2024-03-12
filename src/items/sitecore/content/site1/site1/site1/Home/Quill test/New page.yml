@@ -1,0 +1,34 @@
+﻿---
+ID: "bf9aa2da-8a4a-47ba-80d8-85707c314bc7"
+Parent: "6f5bc546-879d-4c5f-a57f-2a2f2dfd9210"
+Template: "02abfaa3-4d93-441c-86b3-141c13ffa965"
+Path: /sitecore/content/site1/site1/Home/Quill test/New page
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{AE411DBB-C4D6-48AB-B414-F943BB724EBC}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240216T134505Z
+    - ID: "414061f4-fbb1-4591-bc37-bffa67f745eb"
+      Hint: Title
+      Value: New page
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f3948b4-c9d0-4bf7-b51b-1d3463cf94b5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Stanislav Maxymov
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240216T134505Z
