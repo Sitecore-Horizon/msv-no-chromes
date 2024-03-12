@@ -47,6 +47,9 @@
     <Reference Include="Sitecore.Horizon.Integration">
       <HintPath>assemblies\Sitecore.Horizon.Integration.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.LayoutService">
+      <HintPath>assemblies\Sitecore.LayoutService.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
